@@ -1,3 +1,4 @@
+import ceoPhoto from "@/assets/oriyomi-toha.jpg.asset.json";
 import { createFileRoute } from "@tanstack/react-router";
 import { Compass, HeartHandshake, Lightbulb, ShieldCheck, TrendingUp } from "lucide-react";
 import { CTASection } from "@/components/site/CTASection";
@@ -125,16 +126,20 @@ function AboutPage() {
       <section className="section-y bg-secondary/50">
         <div className="container-page grid items-center gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
           <Reveal>
-            <div className="surface-ink flex aspect-[4/5] items-center justify-center rounded-2xl shadow-lift">
-              <div className="px-8 text-center">
-                <span className="inline-flex h-20 w-20 items-center justify-center rounded-full bg-primary font-display text-2xl font-bold text-primary-foreground">
-                  HP
-                </span>
-                <p className="mt-6 text-sm text-ink-muted">
-                  Editable photo placeholder — add your professional founder photo here.
-                </p>
-              </div>
-            </div>
+            <figure className="relative overflow-hidden rounded-2xl border border-border shadow-lift">
+              <img
+                src={ceoPhoto.url}
+                alt="Oriyomi Toha, Founder and CEO of HoriPeak"
+                width={1080}
+                height={1080}
+                loading="lazy"
+                className="aspect-[4/5] w-full object-cover object-top"
+              />
+              <figcaption className="surface-ink absolute inset-x-0 bottom-0 p-5">
+                <p className="font-display text-lg font-bold text-ink-foreground">Oriyomi Toha</p>
+                <p className="text-sm text-ink-muted">Founder & CEO, HoriPeak</p>
+              </figcaption>
+            </figure>
           </Reveal>
           <div>
             <SectionHeading
@@ -143,9 +148,9 @@ function AboutPage() {
             />
             <Reveal delay={120} className="mt-6 space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
-                <em>Editable biography placeholder.</em> HoriPeak is led by a digital marketing
-                practitioner who works directly with clients — from the first conversation about
-                goals through to launch and beyond.
+                HoriPeak is led by <strong className="text-foreground">Oriyomi Toha</strong>, a
+                digital marketing practitioner who works directly with every client — from the
+                first conversation about goals through to launch and beyond.
               </p>
               <p>
                 The approach is deliberately simple: understand the business first, recommend only
@@ -153,8 +158,9 @@ function AboutPage() {
                 against professional standards.
               </p>
               <p>
-                Replace this section with your own story, background and a professional photograph
-                to make the page feel personal to visitors.
+                Whether you run a local shop, a growing brand or you are an author preparing a
+                launch, you work with the same person from strategy through delivery — that is what
+                HoriPeak was built to offer.
               </p>
             </Reveal>
           </div>

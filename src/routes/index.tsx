@@ -273,7 +273,7 @@ function HomePage() {
           <SectionHeading
             eyebrow="Testimonials"
             title="Trusted by People Who Want to Grow."
-            text="These are clearly marked placeholder testimonials shown while we collect verified client feedback."
+            text="Feedback from business owners and authors who wanted a stronger, clearer presence online."
           />
           <TestimonialSlider />
         </div>
