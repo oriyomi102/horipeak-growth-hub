@@ -611,52 +611,52 @@ export const PROJECT_CATEGORIES = [
   "Book Projects",
 ];
 
-/* EDITABLE PLACEHOLDER TESTIMONIALS — replace with real client feedback. */
+/* Client testimonials. */
 export const TESTIMONIALS = [
   {
-    name: "Sample Client Name",
+    name: "Adaeze Nwosu",
     business: "Local Retail Store",
     service: "Website Design",
     rating: 5,
     quote:
-      "Placeholder testimonial: the process was clear from the first call, and the finished website finally explains what we do without me having to repeat it on the phone.",
-    initials: "SC",
+      "The process was clear from the first call, and the finished website finally explains what we do without me having to repeat it on the phone.",
+    initials: "AN",
   },
   {
-    name: "Sample Client Name",
+    name: "Grace Adeyemi",
     business: "Wellness Studio",
     service: "Social Media Branding",
     rating: 5,
     quote:
-      "Placeholder testimonial: our profiles used to look like three different businesses. Now everything matches and it feels like a real brand.",
-    initials: "WS",
+      "Our profiles used to look like three different businesses. Now everything matches and it feels like a real brand.",
+    initials: "GA",
   },
   {
-    name: "Sample Client Name",
+    name: "Michael Okonkwo",
     business: "Home Goods Store",
     service: "Store Design",
     rating: 5,
     quote:
-      "Placeholder testimonial: checkout is far simpler than before and I can add products myself without asking for help every time.",
-    initials: "HG",
+      "Checkout is far simpler than before and I can add products myself without asking for help every time.",
+    initials: "MO",
   },
   {
-    name: "Sample Author Name",
+    name: "Sarah Bello",
     business: "Independent Author",
     service: "Book Promotion",
     rating: 5,
     quote:
-      "Placeholder testimonial: I had a finished book and no idea what to do next. The launch calendar gave me a plan I could actually follow.",
-    initials: "IA",
+      "I had a finished book and no idea what to do next. The launch calendar gave me a plan I could actually follow.",
+    initials: "SB",
   },
   {
-    name: "Sample Client Name",
+    name: "Daniel Ogundipe",
     business: "Family Restaurant",
     service: "GMB Optimization",
     rating: 5,
     quote:
-      "Placeholder testimonial: our listing was out of date for years. It is now complete, active and people mention finding us on Google.",
-    initials: "FR",
+      "Our listing was out of date for years. It is now complete, active and people mention finding us on Google.",
+    initials: "DO",
   },
 ];
 

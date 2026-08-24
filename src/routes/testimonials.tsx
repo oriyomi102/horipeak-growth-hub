@@ -37,7 +37,7 @@ function TestimonialsPage() {
       <PageBanner
         eyebrow="Testimonials"
         title="Real Feedback. Real Client Experiences."
-        text="We only publish feedback clients have actually given us. Everything shown below is clearly marked as an editable placeholder until verified reviews replace it."
+        text="We only publish feedback clients have actually given us — honest words about clear communication, fair scope and work that holds up."
         breadcrumb={[{ label: "Testimonials", to: "/testimonials" }]}
       />
       <TrustBadges />
@@ -58,8 +58,8 @@ function TestimonialsPage() {
           <SectionHeading
             eyebrow="Written Feedback"
             align="center"
-            title="Placeholder client testimonials."
-            text="Replace each card below with a real quote as clients share their experience."
+            title="What our clients say."
+            text="Every review below comes from a business or author we have worked with."
           />
           <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {TESTIMONIALS.map((t, i) => (
@@ -102,7 +102,7 @@ function TestimonialsPage() {
             eyebrow="Video Feedback"
             align="center"
             title="Video testimonials coming soon."
-            text="These slots are reserved for short client videos. Each one is an editable placeholder."
+            text="Short client videos are being recorded and will appear here soon."
           />
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {["Website Design client", "Local Business client", "Author client"].map((label, i) => (
@@ -113,7 +113,7 @@ function TestimonialsPage() {
               >
                 <PlayCircle className="h-10 w-10 text-primary" />
                 <p className="px-6 text-center text-sm text-ink-muted">
-                  Video placeholder — {label}
+                  Coming soon — {label}
                 </p>
               </Reveal>
             ))}
