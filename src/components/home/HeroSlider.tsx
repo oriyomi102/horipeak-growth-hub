@@ -114,8 +114,9 @@ export function HeroSlider() {
               i === index ? "scale-105" : "scale-100",
             )}
           />
-          <div className="absolute inset-0 bg-ink/55" />
-          <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/75 to-ink/20" />
+          <div className="absolute inset-0 bg-ink/25" />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/55 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-ink/25" />
         </div>
       ))}
 
