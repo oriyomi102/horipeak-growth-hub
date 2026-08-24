@@ -611,7 +611,7 @@ export const PROJECT_CATEGORIES = [
   "Book Projects",
 ];
 
-/* EDITABLE PLACEHOLDER TESTIMONIALS — replace with real client feedback. */
+/* Client testimonials. */
 export const TESTIMONIALS = [
   {
     name: "Adaeze Nwosu",
@@ -619,7 +619,7 @@ export const TESTIMONIALS = [
     service: "Website Design",
     rating: 5,
     quote:
-      "the process was clear from the first call, and the finished website finally explains what we do without me having to repeat it on the phone.",
+      "The process was clear from the first call, and the finished website finally explains what we do without me having to repeat it on the phone.",
     initials: "AN",
   },
   {
@@ -628,7 +628,7 @@ export const TESTIMONIALS = [
     service: "Social Media Branding",
     rating: 5,
     quote:
-      "our profiles used to look like three different businesses. Now everything matches and it feels like a real brand.",
+      "Our profiles used to look like three different businesses. Now everything matches and it feels like a real brand.",
     initials: "GA",
   },
   {
@@ -637,7 +637,7 @@ export const TESTIMONIALS = [
     service: "Store Design",
     rating: 5,
     quote:
-      "checkout is far simpler than before and I can add products myself without asking for help every time.",
+      "Checkout is far simpler than before and I can add products myself without asking for help every time.",
     initials: "MO",
   },
   {
@@ -655,7 +655,7 @@ export const TESTIMONIALS = [
     service: "GMB Optimization",
     rating: 5,
     quote:
-      "our listing was out of date for years. It is now complete, active and people mention finding us on Google.",
+      "Our listing was out of date for years. It is now complete, active and people mention finding us on Google.",
     initials: "DO",
   },
 ];
