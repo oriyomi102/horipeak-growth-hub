@@ -12,16 +12,16 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/testimonials")({
   head: () => ({
     meta: [
-      { title: "Client Testimonials — HoriPeak" },
+      { title: "Client Testimonials — HRP" },
       {
         name: "description",
         content:
-          "Feedback from businesses and authors working with HoriPeak. Placeholder testimonials are clearly marked until verified client reviews are published.",
+          "Feedback from businesses and authors working with HRP. Placeholder testimonials are clearly marked until verified client reviews are published.",
       },
       { property: "og:title", content: "Real Feedback. Real Client Experiences." },
       {
         property: "og:description",
-        content: "Read what working with HoriPeak looks like from the client side.",
+        content: "Read what working with HRP looks like from the client side.",
       },
       { property: "og:url", content: "/testimonials" },
       { property: "og:type", content: "website" },
@@ -46,7 +46,7 @@ function TestimonialsPage() {
         <div className="container-page grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
           <SectionHeading
             eyebrow="Featured"
-            title="What working with HoriPeak feels like."
+            title="What working with HRP feels like."
             text="Clear communication, honest scope and work that holds up. That is the standard we ask to be judged against."
           />
           <TestimonialSlider />

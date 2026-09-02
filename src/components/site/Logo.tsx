@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 export function Logo({ onInk = false, className }: { onInk?: boolean; className?: string }) {
   return (
-    <Link to="/" className={cn("group inline-flex items-center gap-2.5", className)} aria-label="HoriPeak home">
+    <Link to="/" className={cn("group inline-flex items-center gap-2.5", className)} aria-label="HRP home">
       <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-md bg-primary transition-transform duration-300 group-hover:-translate-y-0.5">
         <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true" fill="none">
           <path
@@ -18,7 +18,7 @@ export function Logo({ onInk = false, className }: { onInk?: boolean; className?
           onInk ? "text-ink-foreground" : "text-foreground",
         )}
       >
-        Hori<span className="text-primary">Peak</span>
+        H<span className="text-primary">RP</span>
       </span>
     </Link>
   );

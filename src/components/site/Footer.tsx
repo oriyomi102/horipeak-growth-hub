@@ -38,7 +38,7 @@ export function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`HoriPeak on ${social.name}`}
+                  aria-label={`HRP on ${social.name}`}
                   className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-ink-foreground/15 text-ink-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-primary hover:bg-primary hover:text-primary-foreground"
                 >
                   <Icon className="h-4 w-4" />
@@ -97,8 +97,8 @@ export function Footer() {
           <ul className="mt-5 space-y-4 text-sm text-ink-muted">
             <li className="flex items-start gap-3">
               <Mail className="mt-0.5 h-4 w-4 text-primary" />
-              <a href="mailto:hello@horipeak.com" className="hover:text-primary">
-                hello@horipeak.com
+              <a href="mailto:hello@hrp.com" className="hover:text-primary">
+                hello@hrp.com
               </a>
             </li>
             <li className="flex items-start gap-3">
@@ -141,7 +141,7 @@ export function Footer() {
 
       <div className="border-t border-ink-foreground/10">
         <div className="container-page flex flex-col items-center justify-between gap-4 py-6 text-sm text-ink-muted md:flex-row">
-          <p>© 2026 HoriPeak. All Rights Reserved.</p>
+          <p>© 2026 HRP. All Rights Reserved.</p>
           <div className="flex gap-6">
             <Link to="/privacy-policy" className="hover:text-primary">
               Privacy Policy

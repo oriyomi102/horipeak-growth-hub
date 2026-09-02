@@ -40,7 +40,7 @@ const SLIDES: Slide[] = [
   {
     eyebrow: "Local Visibility",
     headline: "Get Found by Customers Searching for Your Business.",
-    text: "From Google Business Profile optimization to social media marketing, HoriPeak helps your business become easier to find, trust and choose.",
+    text: "From Google Business Profile optimization to social media marketing, HRP helps your business become easier to find, trust and choose.",
     primary: { label: "Improve My Visibility", to: "/contact" },
     secondary: { label: "Talk to an Expert", to: "/contact" },
     image: heroLocal,
@@ -75,7 +75,7 @@ export function HeroSlider() {
     <section
       className="relative isolate min-h-[38rem] overflow-hidden bg-ink md:min-h-[46rem]"
       aria-roledescription="carousel"
-      aria-label="HoriPeak highlights"
+      aria-label="HRP highlights"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocusCapture={() => setPaused(true)}

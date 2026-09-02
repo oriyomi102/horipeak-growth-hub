@@ -13,13 +13,13 @@ import { PROJECTS, SERVICES, STATS } from "@/lib/site-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "HoriPeak — Digital Marketing, Website Design & Local Visibility" },
+      { title: "HRP — Digital Marketing, Website Design & Local Visibility" },
       {
         name: "description",
         content:
-          "HoriPeak helps local businesses, store owners, brands and authors get seen, trusted and chosen online — websites, stores, GMB, social media and book services.",
+          "HRP helps local businesses, store owners, brands and authors get seen, trusted and chosen online — websites, stores, GMB, social media and book services.",
       },
-      { property: "og:title", content: "HoriPeak — Get Seen, Trusted & Chosen Online" },
+      { property: "og:title", content: "HRP — Get Seen, Trusted & Chosen Online" },
       {
         property: "og:description",
         content:
@@ -86,7 +86,7 @@ function HomePage() {
           <SectionHeading
             eyebrow="Who We Are"
             title="Digital Solutions Built Around Your Growth."
-            text="At HoriPeak, we believe every business deserves a professional online presence. We combine strategy, creativity and practical digital solutions to help businesses stand out, connect with the right audience and create opportunities for growth."
+            text="At HRP, we believe every business deserves a professional online presence. We combine strategy, creativity and practical digital solutions to help businesses stand out, connect with the right audience and create opportunities for growth."
           />
           <div className="grid gap-4 sm:grid-cols-2">
             {TRUST_POINTS.map((point, i) => (
@@ -145,8 +145,8 @@ function HomePage() {
         <div className="container-page grid gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
           <div>
             <SectionHeading
-              eyebrow="Why HoriPeak"
-              title="Why Businesses Choose HoriPeak."
+              eyebrow="Why HRP"
+              title="Why Businesses Choose HRP."
               text="We work like a partner, not a vendor. That means honest advice, clear scope and a focus on what actually moves your business forward."
             />
             <Reveal delay={200} className="mt-8">

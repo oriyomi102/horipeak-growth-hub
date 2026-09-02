@@ -11,7 +11,7 @@ import { SERVICES } from "@/lib/site-data";
 export const Route = createFileRoute("/services/")({
   head: () => ({
     meta: [
-      { title: "Digital Marketing Services — HoriPeak" },
+      { title: "Digital Marketing Services — HRP" },
       {
         name: "description",
         content:

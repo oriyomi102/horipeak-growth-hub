@@ -113,7 +113,7 @@ export const SERVICES: Service[] = [
       },
     ],
     seoDescription:
-      "Professional website design for local businesses and growing brands. Modern, mobile-first, conversion-focused websites built by HoriPeak.",
+      "Professional website design for local businesses and growing brands. Modern, mobile-first, conversion-focused websites built by HRP.",
   },
   {
     slug: "store-design",
@@ -170,7 +170,7 @@ export const SERVICES: Service[] = [
       },
     ],
     seoDescription:
-      "Online store design that makes browsing, trusting and buying easy. HoriPeak builds conversion-focused ecommerce experiences for store owners.",
+      "Online store design that makes browsing, trusting and buying easy. HRP builds conversion-focused ecommerce experiences for store owners.",
   },
   {
     slug: "email-marketing",
@@ -215,7 +215,7 @@ export const SERVICES: Service[] = [
       { q: "Which platform will I need?", a: "We recommend one that fits your list size and budget, and set it up so you are never locked out of your own data." },
     ],
     seoDescription:
-      "Email marketing setup, automation and campaigns that turn subscribers into loyal customers. HoriPeak keeps your audience engaged.",
+      "Email marketing setup, automation and campaigns that turn subscribers into loyal customers. HRP keeps your audience engaged.",
   },
   {
     slug: "gmb-optimization",
@@ -306,7 +306,7 @@ export const SERVICES: Service[] = [
       { q: "Can you train my team?", a: "We include a walkthrough so whoever posts knows how to stay on brand." },
     ],
     seoDescription:
-      "Social media branding that makes every profile look like one strong, professional brand. Identity, templates and guidelines by HoriPeak.",
+      "Social media branding that makes every profile look like one strong, professional brand. Identity, templates and guidelines by HRP.",
   },
   {
     slug: "social-media-marketing",
@@ -489,7 +489,7 @@ export const SERVICES: Service[] = [
       { q: "Do you help publish it?", a: "We prepare submission-ready files and can guide you through the upload process." },
     ],
     seoDescription:
-      "Book writing, editing and professional formatting. Turn your manuscript into print-ready and eBook files with HoriPeak.",
+      "Book writing, editing and professional formatting. Turn your manuscript into print-ready and eBook files with HRP.",
   },
 ];
 

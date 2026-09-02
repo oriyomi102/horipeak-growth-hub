@@ -17,16 +17,16 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio & Case Studies — HoriPeak" },
+      { title: "Portfolio & Case Studies — HRP" },
       {
         name: "description",
         content:
-          "Sample website, online store, social branding, campaign and book projects showing how HoriPeak approaches structure, presentation and conversion.",
+          "Sample website, online store, social branding, campaign and book projects showing how HRP approaches structure, presentation and conversion.",
       },
       { property: "og:title", content: "Work That Speaks for the Brands Behind It" },
       {
         property: "og:description",
-        content: "Explore sample HoriPeak projects across websites, stores, branding and book launches.",
+        content: "Explore sample HRP projects across websites, stores, branding and book launches.",
       },
       { property: "og:url", content: "/portfolio" },
       { property: "og:type", content: "website" },
