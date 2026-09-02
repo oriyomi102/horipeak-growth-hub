@@ -5,3 +5,10 @@
 [build.environment]
   NODE_VERSION = "22"
   NITRO_PRESET = "netlify"
+
+# SSR fallback: static files in `dist` win first, everything else goes to the
+# Nitro server function generated at .netlify/functions-internal/server
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
