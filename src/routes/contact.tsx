@@ -23,16 +23,16 @@ import { BUDGET_OPTIONS, SERVICES, SOCIAL_LINKS } from "@/lib/site-data";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact HoriPeak — Let's Talk About Your Next Project" },
+      { title: "Contact HRP — Let's Talk About Your Next Project" },
       {
         name: "description",
         content:
-          "Tell HoriPeak about your business and project. Request a quote, book a free consultation or ask a question — we reply within one working day.",
+          "Tell HRP about your business and project. Request a quote, book a free consultation or ask a question — we reply within one working day.",
       },
       { property: "og:title", content: "Let's Talk About Your Next Project" },
       {
         property: "og:description",
-        content: "Request a quote or book a free consultation with HoriPeak.",
+        content: "Request a quote or book a free consultation with HRP.",
       },
       { property: "og:url", content: "/contact" },
       { property: "og:type", content: "website" },
@@ -215,11 +215,11 @@ function ContactPage() {
             <Reveal className="surface-ink rounded-2xl p-8 shadow-lift">
               <h2 className="text-xl font-bold text-ink-foreground">Quick contact options</h2>
               <a
-                href="mailto:hello@horipeak.com"
+                href="mailto:hello@hrp.com"
                 className="mt-6 flex items-center gap-3 rounded-xl border border-ink-foreground/15 p-4 text-sm text-ink-foreground transition-colors hover:border-primary"
               >
                 <Mail className="h-4 w-4 text-primary" />
-                hello@horipeak.com
+                hello@hrp.com
               </a>
               <div className="mt-4 space-y-3">
                 {SOCIAL_LINKS.map((social) => {
@@ -252,13 +252,13 @@ function ContactPage() {
         </div>
       </section>
 
-      {/* Working with HoriPeak */}
+      {/* Working with HRP */}
       <section className="section-y bg-secondary/50">
         <div className="container-page">
           <SectionHeading
             eyebrow="What Happens Next"
             align="center"
-            title="Working With HoriPeak"
+            title="Working With HRP"
             text="Here is exactly what happens after you press send — no mystery, no pressure."
           />
           <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -296,15 +296,15 @@ function ContactPage() {
           <Reveal className="mx-auto max-w-2xl">
             <MessageSquare className="mx-auto h-8 w-8 text-primary" />
             <h2 className="mt-6 text-3xl font-bold text-ink-foreground md:text-[2.6rem]">
-              Talk to HoriPeak today.
+              Talk to HRP today.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-ink-muted">
               One short conversation is usually enough to know whether we can help — and what would
               make the biggest difference to your business first.
             </p>
             <Button asChild variant="hero" size="lg" className="mt-8">
-              <a href="mailto:hello@horipeak.com">
-                Email hello@horipeak.com <ArrowRight className="h-4 w-4" />
+              <a href="mailto:hello@hrp.com">
+                Email hello@hrp.com <ArrowRight className="h-4 w-4" />
               </a>
             </Button>
           </Reveal>

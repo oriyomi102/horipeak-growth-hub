@@ -15,9 +15,9 @@ export const Route = createFileRoute("/services/$slug")({
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Service unavailable — HoriPeak" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Service unavailable — HRP" }, { name: "robots", content: "noindex" }] };
     }
-    const title = `${loaderData.name} — HoriPeak`;
+    const title = `${loaderData.name} — HRP`;
     return {
       meta: [
         { title },
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/services/$slug")({
             "@type": "Service",
             name: loaderData.name,
             description: loaderData.description,
-            provider: { "@type": "Organization", name: "HoriPeak" },
+            provider: { "@type": "Organization", name: "HRP" },
           }),
         },
       ],
@@ -136,11 +136,11 @@ function ServiceDetailPage() {
         </div>
       </section>
 
-      {/* Why HoriPeak */}
+      {/* Why HRP */}
       <section className="section-y bg-secondary/50">
         <div className="container-page grid gap-12 lg:grid-cols-2 lg:gap-20">
           <SectionHeading
-            eyebrow="Why HoriPeak"
+            eyebrow="Why HRP"
             title="What you can expect from working with us."
             text="Practical delivery, clear reporting and advice that respects your budget and your time."
           />

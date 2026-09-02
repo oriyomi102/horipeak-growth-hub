@@ -37,7 +37,7 @@ function NotFoundComponent() {
             to="/contact"
             className="inline-flex items-center justify-center rounded-md border border-border bg-card px-5 py-2.5 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
           >
-            Contact HoriPeak
+            Contact HRP
           </Link>
         </div>
       </div>
@@ -88,14 +88,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "HoriPeak — Digital Marketing & Website Design" },
+      { title: "HRP — Digital Marketing & Website Design" },
       {
         name: "description",
         content:
-          "HoriPeak helps businesses get seen, trusted and chosen online with website design, local visibility, social media and book services.",
+          "HRP helps businesses get seen, trusted and chosen online with website design, local visibility, social media and book services.",
       },
-      { name: "author", content: "HoriPeak" },
-      { property: "og:site_name", content: "HoriPeak" },
+      { name: "author", content: "HRP" },
+      { property: "og:site_name", content: "HRP" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#1c2a24" },
@@ -116,11 +116,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
-          name: "HoriPeak",
+          name: "HRP",
           slogan: "Helping Businesses Get Seen, Trusted & Chosen Online.",
           description:
             "Digital marketing agency offering website design, online store design, email marketing, Google Business Profile optimization, social media branding and marketing, business promotion and book services.",
-          email: "hello@horipeak.com",
+          email: "hello@hrp.com",
           sameAs: [
             "https://www.facebook.com/profile.php?id=61592872920966",
             "https://www.instagram.com/oripeak6/",

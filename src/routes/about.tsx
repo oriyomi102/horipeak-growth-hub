@@ -10,13 +10,13 @@ import { TrustBadges } from "@/components/site/TrustBadges";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About HoriPeak — A Digital Growth Partner for Businesses" },
+      { title: "About HRP — A Digital Growth Partner for Businesses" },
       {
         name: "description",
         content:
-          "HoriPeak helps businesses, brands and creators build a professional digital presence. Learn about our story, mission, vision and values.",
+          "HRP helps businesses, brands and creators build a professional digital presence. Learn about our story, mission, vision and values.",
       },
-      { property: "og:title", content: "About HoriPeak" },
+      { property: "og:title", content: "About HRP" },
       {
         property: "og:description",
         content:
@@ -42,7 +42,7 @@ function AboutPage() {
   return (
     <>
       <PageBanner
-        eyebrow="About HoriPeak"
+        eyebrow="About HRP"
         title="Helping Businesses Build a Stronger Digital Future."
         text="We are a digital growth partner for local businesses, store owners, companies, personal brands and authors who want to be seen, trusted and chosen online."
         breadcrumb={[{ label: "About Us", to: "/about" }]}
@@ -55,7 +55,7 @@ function AboutPage() {
           <SectionHeading eyebrow="Our Story" title="Built to close the gap between good businesses and good online presence." />
           <Reveal className="space-y-5 text-base leading-relaxed text-muted-foreground">
             <p>
-              HoriPeak was created after seeing the same pattern repeat: capable businesses doing
+              HRP was created after seeing the same pattern repeat: capable businesses doing
               excellent work in person, but presenting themselves online in a way that undersold
               them. A dated website here, an abandoned business listing there, three social profiles
               that looked like three different companies.
@@ -129,7 +129,7 @@ function AboutPage() {
             <figure className="relative overflow-hidden rounded-2xl border border-border shadow-lift">
               <img
                 src={ceoPhoto.url}
-                alt="Oriyomi Toha, Founder and CEO of HoriPeak"
+                alt="Oriyomi Toha, Founder and CEO of HRP"
                 width={1080}
                 height={1080}
                 loading="lazy"
@@ -137,18 +137,18 @@ function AboutPage() {
               />
               <figcaption className="surface-ink absolute inset-x-0 bottom-0 p-5">
                 <p className="font-display text-lg font-bold text-ink-foreground">Oriyomi Toha</p>
-                <p className="text-sm text-ink-muted">Founder & CEO, HoriPeak</p>
+                <p className="text-sm text-ink-muted">Founder & CEO, HRP</p>
               </figcaption>
             </figure>
           </Reveal>
           <div>
             <SectionHeading
-              eyebrow="Meet HoriPeak"
+              eyebrow="Meet HRP"
               title="A hands-on partner, not a faceless agency."
             />
             <Reveal delay={120} className="mt-6 space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
-                HoriPeak is led by <strong className="text-foreground">Oriyomi Toha</strong>, a
+                HRP is led by <strong className="text-foreground">Oriyomi Toha</strong>, a
                 digital marketing practitioner who works directly with every client — from the
                 first conversation about goals through to launch and beyond.
               </p>
@@ -160,7 +160,7 @@ function AboutPage() {
               <p>
                 Whether you run a local shop, a growing brand or you are an author preparing a
                 launch, you work with the same person from strategy through delivery — that is what
-                HoriPeak was built to offer.
+                HRP was built to offer.
               </p>
             </Reveal>
           </div>

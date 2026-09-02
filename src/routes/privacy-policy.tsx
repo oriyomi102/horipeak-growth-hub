@@ -4,16 +4,16 @@ import { PageBanner } from "@/components/site/PageBanner";
 export const Route = createFileRoute("/privacy-policy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy — HoriPeak" },
+      { title: "Privacy Policy — HRP" },
       {
         name: "description",
         content:
-          "How HoriPeak collects, uses and protects the personal information you share through our website and enquiry forms.",
+          "How HRP collects, uses and protects the personal information you share through our website and enquiry forms.",
       },
-      { property: "og:title", content: "Privacy Policy — HoriPeak" },
+      { property: "og:title", content: "Privacy Policy — HRP" },
       {
         property: "og:description",
-        content: "How HoriPeak handles personal information collected through this website.",
+        content: "How HRP handles personal information collected through this website.",
       },
       { property: "og:url", content: "/privacy-policy" },
       { property: "og:type", content: "website" },
@@ -46,7 +46,7 @@ const SECTIONS = [
   },
   {
     title: "Contact",
-    body: "For any privacy question or request, email hello@horipeak.com and we will respond within one working day.",
+    body: "For any privacy question or request, email hello@hrp.com and we will respond within one working day.",
   },
 ];
 

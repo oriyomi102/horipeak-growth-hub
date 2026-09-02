@@ -5,7 +5,7 @@ import { Reveal } from "./Reveal";
 
 export function CTASection({
   title = "Ready to Take Your Business to the Next Level?",
-  text = "Whether you need a website, stronger local visibility, social media support or professional promotion, HoriPeak is ready to help you move forward.",
+  text = "Whether you need a website, stronger local visibility, social media support or professional promotion, HRP is ready to help you move forward.",
   primaryLabel = "Start a Project",
   secondaryLabel = "Book a Free Consultation",
 }: {

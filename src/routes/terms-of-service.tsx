@@ -4,16 +4,16 @@ import { PageBanner } from "@/components/site/PageBanner";
 export const Route = createFileRoute("/terms-of-service")({
   head: () => ({
     meta: [
-      { title: "Terms of Service — HoriPeak" },
+      { title: "Terms of Service — HRP" },
       {
         name: "description",
         content:
-          "The terms that apply when you use the HoriPeak website or engage HoriPeak for digital marketing, design or book services.",
+          "The terms that apply when you use the HRP website or engage HRP for digital marketing, design or book services.",
       },
-      { property: "og:title", content: "Terms of Service — HoriPeak" },
+      { property: "og:title", content: "Terms of Service — HRP" },
       {
         property: "og:description",
-        content: "Terms that apply to the HoriPeak website and our client engagements.",
+        content: "Terms that apply to the HRP website and our client engagements.",
       },
       { property: "og:url", content: "/terms-of-service" },
       { property: "og:type", content: "website" },
@@ -50,7 +50,7 @@ const SECTIONS = [
   },
   {
     title: "Contact",
-    body: "Questions about these terms can be sent to hello@horipeak.com.",
+    body: "Questions about these terms can be sent to hello@hrp.com.",
   },
 ];
 
@@ -60,7 +60,7 @@ function TermsPage() {
       <PageBanner
         eyebrow="Legal"
         title="Terms of Service"
-        text="Last updated: August 2026. These terms apply to this website and to engagements with HoriPeak."
+        text="Last updated: August 2026. These terms apply to this website and to engagements with HRP."
         breadcrumb={[{ label: "Terms of Service", to: "/terms-of-service" }]}
       />
       <section className="section-y">

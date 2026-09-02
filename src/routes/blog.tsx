@@ -14,11 +14,11 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Blog & Resources — Practical Insights for Growing Online | HoriPeak" },
+      { title: "Blog & Resources — Practical Insights for Growing Online | HRP" },
       {
         name: "description",
         content:
-          "Practical articles on website design, local business growth, social media, email marketing and book promotion from the HoriPeak team.",
+          "Practical articles on website design, local business growth, social media, email marketing and book promotion from the HRP team.",
       },
       { property: "og:title", content: "Practical Insights for Growing Online" },
       {
